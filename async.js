@@ -7,6 +7,10 @@ console.log("hiiiii");
 var a = 103802;
 var b = 234772;
 
+
+fs.readFileSync("./file.txt","utf8");
+    console.log("yes");
+
 https.get("https://dummyjson.com/products/1", (res)=>{
     console.log("Fetched Data Successfully");
 });
